@@ -11,7 +11,6 @@ import { useUserContext } from "../context/user_context";
 const Nav = () => {
   const { openSidebar } = useProductsContext();
   const { myUser } = useUserContext();
-  console.log(myUser);
   return (
     <NavContainer>
       <div className="nav-center">
