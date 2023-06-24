@@ -77,14 +77,12 @@ const filter_reducer = (state, action) => {
       tempProducts = tempProducts.filter(
         (product) => product.category === category
       );
-      console.log(tempProducts);
     }
     // company
     if (company !== "all") {
       tempProducts = tempProducts.filter(
         (product) => product.company === company
       );
-      console.log(tempProducts);
     }
     // colors
     if (color !== "all") {

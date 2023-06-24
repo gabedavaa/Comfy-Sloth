@@ -17,7 +17,6 @@ const Stars = ({ stars, reviews }) => {
     );
   });
 
-  console.log(tempStars);
 
   return (
     <Wrapper>
